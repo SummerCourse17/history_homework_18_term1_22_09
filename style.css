@@ -1,5 +1,33 @@
-title {
+.title {
   display: flex;
+  flex-direction: column;
   background-color: black;
   color: white;
+}
+.title-content{
+  margin-left: 2rem;
+}
+.page {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: white;
+}
+.item-title{
+  font-family: 'Coming Soon', cursive;
+}
+.item-content{
+  font-family: 'Reenie Beanie', cursive;
+}
+.item-content h3{
+  font-family: 'Permanent Marker', cursive;
+}
+.item-content h4{
+  font-family: 'Sigmar One', cursive;
+}
+.item-content p{
+  font-size: 20px;
+}
+body{
+  background-color: lightblue;
 }

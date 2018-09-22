@@ -6,6 +6,8 @@
 }
 .title-content{
   margin-left: 2rem;
+  background-color: black;
+  padding: 10px;
 }
 .page {
   padding-top: 1rem;
@@ -15,19 +17,57 @@
 }
 .item-title{
   font-family: 'Coming Soon', cursive;
+  text-align: center;
 }
 .item-content{
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
 }
 .item-content h3{
   font-family: 'Permanent Marker', cursive;
 }
 .item-content h4{
-  font-family: 'Sigmar One', cursive;
+  font-family: 'Lemonada', cursive;
 }
-.item-content p{
-  font-size: 20px;
+.item-content p, ol, li{
+  font-size: 22px;
+}
+.item ol, .item li{
+  text-align: left!important;
 }
 body{
   background-color: lightblue;
+}
+
+
+#mission{
+  display: flex;
+  text-align: center;
+  height: 700px;
+  background-image: url("https://cdn.citywonders.com/media/14642/westminster-and-parliament-hero.jpg?anchor=center&mode=crop&quality=65&width=1920&height=800");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title a{
+  color: white;
+}
+.footer{
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  font-size: 25px;
+  padding: 2rem;
+}
+marquee{
+font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size: 22px;
+}
+#pc{
+  font-family: 'IM Fell English SC', serif;
 }

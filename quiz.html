@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Permanent+Marker|Reenie+Beanie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Lemonada" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Term 1 Quiz</h1>
+    <h2>By Ben C</h2>
+    <hr>
+    <button type="button" name="button1" onclick="startQuiz()">Start Quiz</button>
+    <script>
+    var score = 0
+      function startQuiz(){
+        var name = prompt("What is your name?");
+        alert("Hello, welcome to the quiz!")
+        if(prompt("Which was not a demand of the chartists? A = 	Every man over 21 that isn’t in prison should be able to vote. B = Women should have the right to vote. C = MPs should be paid.") == "B" ){
+          score = score + 1;
+        }
+        if(prompt("What does suffrage mean? A = To Suffer | B = The right to vote | C = The right to be violent") == "B"){
+          score = score + 1;
+        }
+        if(prompt("Who founded the National Union of Women’s Suffrage Societies? A = Emily Davison | B = Emmeline Pankhurst | C = Millicent Fawcett") == "C"){
+          score = score + 1;
+        }
+        if(prompt("When did women get the vote? | 1914, 1918 or 1920?") == "1918"){
+          score = score + 1;
+        }
+        if(prompt("Who was Emily Davison? | A = Suffragist | B = The P.M.'s wife | C = The Queen | D = Suffragette | E = Nurse in WW2'") == "D"){
+          score = score + 1;
+        }
+        if(prompt("Emily Davison got killed in 1913 in which horse race track? ") == "Epsom Derby"){
+          score = score + 1;
+        }
+        if(prompt("When did Emily Davison join the WSPU? | 1904, 1905, 1906, 1907") == "1906"){
+          score = score + 1;
+        }
+        if(prompt("Now in the UK, how old do you have to be to vote? | 4,9,13,16,18,21,25, A = You can never vote") == "18"){
+          score = score + 1;
+        }
+        if(prompt("Who could vote in 1820? | A = Anyone | B = Women | C = Men | D = Rich Men | E = Rich Women | F = Rich Men & Women | G = Peasants | H = Pigs") == "D"){
+          score = score + 1;
+        }
+        if(prompt("The current voting system is called: (clue F _____ P______ T______ P______)") == "First Past The Post"){
+          score = score + 1;
+        }
+        if(prompt("In 1909, the prime minister, Winston Churchill was attacked in which train station because he refused to give women the vote?| London, Manchester, Newcastle, Edenborough, Bristol or Cardiff") == "Bristol"){
+          score = score + 1;
+        }
+        if(prompt("would you like to see the answers: Y or N") == "Y"){
+          alert("1. B | 2. B | 3. C | 4. 1918 | 5. D | 6. Epsom Derby | 7. 1906 | 8. 18 | 9. D | 10. First Past The Post | 11. Bristol")
+        }
+        if (score == 12){
+          alert("Did you answer Pigs for 'Who could Vote in 1820'?");
+          alert("You got 1 question right. ");
+        }
+        if (score == 3){
+          alert("Did you answer Pigs for 'Who could Vote in 1820'?");
+          alert("You got 2 questions right. ");
+        }
+        if (score == 4){
+          alert("You should look back over the topic!");
+          alert("You got 3 questions right. ");
+        }
+        if (score == 5){
+          alert("You should look back over the topic!");
+          alert("You got 4 questions right. ");
+        }
+        if (score == 6){
+          alert("You did OK, I guess.");
+          alert("You got 5 questions right. ");
+        }
+        if (score == 7){
+          alert("You did OK, I guess.");
+          alert("You got 6 questions right. ");
+        }
+        if (score == 8){
+          alert("Well Done " + name + "!");
+          alert("You got 7 questions right. ");
+        }
+        if (score == 9){
+          alert("You did amazing, " + name);
+          alert("You got 8 questions right. ");
+        }
+        if (score == 10){
+          alert("You did amazing, " + name);
+          alert("You got 9 questions right. ");
+        }
+        if (score == 11){
+          alert("Now look what you've done! (press OK)")
+          alert("Error 602: Genius Overload | Please wait while we fix the problem.");
+          alert("You got all the questions right. ");
+        }
+        if (score == 12){
+          alert("Now look what you've done! (press OK)")
+          alert("Error 602: Genius Overload | Please wait while we fix the problem.");
+          alert("You got all the questions right. ");
+        }
+      }
+    </script>
+  </body>
+</html>
